@@ -1,0 +1,22 @@
+Acessar a página https://www.python.org/
+Descubra o poder do Python!
+
+Para instalar o Anaconda ou Conda:
+acesse https://www.anaconda.com/download
+
+Comandos básicos -> no Prompt de Comando digite:
+C:\Users\Adriano Santana>python -h
+
+Para saber a versão do Python instalada:
+C:\Users\Adriano Santana>python -V
+Python 3.11.5
+
+Para iniciar o Jupyter Notebook, digite:
+C:\Users\Adriano Santana>jupyter notebook
+
+Pronto! Agora é dominar o mundo. ;)
+
+
+
+
+
