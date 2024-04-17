@@ -1,0 +1,8 @@
+# URL do conjunto de dados Iris
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+
+# Definir os nomes das colunas
+nomes_colunas = ['comprimento_sepala', 'largura_sepala', 'comprimento_petala', 'largura_petala', 'classe']
+
+# Carregar o conjunto de dados
+df_dataset = pd.read_csv(url, header=None, names=nomes_colunas)
