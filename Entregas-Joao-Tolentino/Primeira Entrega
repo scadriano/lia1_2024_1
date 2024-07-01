@@ -1,0 +1,64 @@
+<hr style="height:10px"> 
+ 
+<div class='container2'>
+		<div>
+			<img src='images\header.png' ALIGN='left' style='width:10em'>
+		</div>	
+	<div style='padding: 0 7em 2em 12em;'>
+	<h1>Laboratório de Inovação e Automação 1 (LIA 1)</h1>
+	<div style="font-size:12pt;float:left;"> 2024/1 | 24M34 | Sala 200 CAE</div><br><br>
+    <div style="font-size:12pt;float:left;"><b>Projetos de Inteligência Artificial</b></div>
+	</div>
+</div>
+
+
+ <hr style="height:5px"> 
+
+    
+<h2>Introdução ao Ambiente de Projetos - Python</h2>
+
+
+Notebook desenvolvido por: <a href="http://lattes.cnpq.br/1346824250595330">Prof. Dr. Adriano C. Santana</a>
+
+ <hr style="height:2px"> 
+
+from platform import python_version
+print(f'A versão em uso é {python_version()}.')
+
+# Verificar se o Python está funcionando
+print('Bye bye, World! ')
+
+Tipo de Dados (Type)
+# Qual o tipo do (?) -> Inteiro
+type(5)
+# Qual o tipo do (?) -> Float - Decimal
+type(5.0)
+
+Operadores Aritméticos
+# Adição
+1 + 1
+# Subtração
+2 - 1
+# Multiplicação
+2 * 2
+# Divisão
+3 / 2
+# Potência
+4 ** 2
+
+Condicional if
+# Condicional if (Se)
+if 5 > 2:
+    print("A sentença é verdadeira!")
+# Condicional if...else
+if 5 < 2:
+    print("A sentença é verdadeira!")
+else:
+    print("A sentença é falsa!")
+
+Lendo arquivos (.txt)
+# Abrindo o arquivo para leitura
+a1 = open("arquivos/arquivo1.txt", "r")
+
+# Lendo o arquivo
+print(a1.read())
